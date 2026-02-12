@@ -1,6 +1,6 @@
 
 
-function Somar(){
+function somar(){
     // Obter os elementos e os valores digitados pelo usuário
     const verificaV1 = document.getElementById('valor01').value;
     const verificaV2 = document.getElementById('valor02').value;
@@ -32,7 +32,7 @@ function Somar(){
 };
 
 
-function Subtrair(){
+function subtrair(){
     const valor1 = document.getElementById('valor01').value;
     const valor2 = document.getElementById('valor02').value;
 
@@ -57,10 +57,7 @@ function Subtrair(){
 }
 
 
-function Limpar(){
-    // Excluir o valor digitado nos Campos
-    document.getElementeById('resultado').style.display = 'none';
-    document.getElementById('valor01').value = '';
-    document.getElementeById('valor02').value = '';
+function limpar(){
+    document.getElementById('resultado').style.display = 'none';
 
 };
